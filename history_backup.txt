@@ -1,0 +1,73 @@
+    1  clink up
+    2  clink update
+    3  desktop
+    4  cd Users/finia/desktop
+    5  cdC:\Users\finia\Desktop
+    6  cd dir
+    7  pwd
+    8  ~/Desktop
+    9  cd pands\
+   10  cd pands-course-material\
+   11  cd
+   12  cd..
+   13  s
+   14  ssh-keygen -t ed25519 -c "finiandoonan1985@gmail.com"
+   15  ssh-keygen -t ed25519 
+   16  ls .ssh
+   17  clip < .ssh\id_ed25519.pub
+   18  cd Users\finia\Desktop
+   19  cd Users\finia\Desktop\pands
+   20  cd "Users\finia\Desktop\pands
+   21  cd "C:\Users\finia\Desktop\pands"
+   22  git clone https://github.com/andrewbeattycourseware/pands-courseware.git
+   23  git clone git@github.com:fin81985/pands-weekly-tasks.git
+   24  cd\
+   25  cd\users\finia\Desktop\
+   26  cd\users\finia\Desktop\pands\
+   27  git clonegit@github.com:fin81985/pands-mywork.git
+   28  git clone git@github.com:fin81985/pands-mywork.git
+   29  git config pull.rebase false
+   30  cd -
+   31  cd \pands-weekly-tasks\
+   32  cd pands-weekly-tasks\
+   33  git add .
+   34  git commit -m "first program"
+   35  git push
+   36  'clink update'
+   37  run 'clink update'
+   38  run 'clink update'.
+   39  'clink update'.
+   40  cd ../
+   41  cd Desktop\
+   42  cd pands
+   43  cd pands-courseware\
+   44  cm\
+   45  cd  Users\finia\
+   46  python
+   47  C:\\Users\\finia\\AppData\\Local\\Temp\\tmpttd79el6.cnf'
+   48  c\
+   49  \
+   50  C:/ProgramData/MySQL/MySQL Server 8.0/Uploads
+   51  ProgramData/MySQL/MySQL Server 8.0/Uploads
+   52  cd ProgramData\MySQL\MySQL Server 8.0\Uploads
+   53  cd C:/ProgramData/MySQL/MySQL Server 8.0/Uploads
+   54  cd ProgramData/MySQL/MySQL Server 9.2/Uploads
+   55  cd \
+   56  Failed to open a session for the virtual machine hello.
+   57  The virtual machine 'hello' has terminated unexpectedly during startup with exit code 1 (0x1).  More details may be available in 'C:\Users\finia\VirtualBox VMs\hello\Logs\VBoxHardening.log'.
+   58  Result Code:E_FAIL (0x80004005)
+   59  Component:MachineWrap
+   60  Interface:IMachine {e36a5081-a82a-40bd-9e4e-42a44d6ce50f}
+   61  cd "C:\Program Files\Oracle\VirtualBox"
+   62  VirtualBoxVM --startvm "VM name"
+   63  cd M:\VirtualBox VMs\Nectar\Logs\ folder
+   64  cd c:\VirtualBox VMs\Nectar\Logs\ folder
+   65  VBoxManage setextradata "VM name" VBoxInternal2/EfiBootArgs <value>
+   66  cdVBoxManage setextradata "VM name" VBoxInternal2/EfiBootArgs <value>
+   67  cd ../../
+   68  cd desktop\pands\pands-courseware\
+   69  git pull
+   70  clear
+   71  cd ..
+   72  ls
+   73  cd pands-mywork\
