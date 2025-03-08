@@ -1,26 +1,19 @@
+# create a program that tells the user whether it is a weekday or weekend
+
+# Autror : Finian Doonan
 
 
-import datetime
 
-# Define a dictionary to map day numbers to names and types
-days = {
-    0: ("Monday", "Weekday"),
-    1: ("Tuesday", "Weekday"),
-    2: ("Wednesday", "Weekday"),
-    3: ("Thursday", "Weekday"),
-    4: ("Friday", "Weekday"),
-    5: ("Saturday", "Weekend"),
-    6: ("Sunday", "Weekend"),
-}
+from datetime import datetime   # import the datetime module
 
-# Get today's day number (0 = Monday, 6 = Sunday)
-today_num = datetime.datetime.today().weekday()
+dt = datetime.now() # get the current date and time
+day_name = dt.strftime("%A") #  the strftime() method formats the date and time into a readable string
 
-# Get the day's name and type (Weekday/Weekend)
-day_name, day_type = days[today_num]
+weekday = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday"}
+weekend = {"Saturday", "Sunday"}    # create a list of weekdays and weekends
 
-# Output the result based on the day type
-if day_type == "Weekday":
-    print(f"Yes, unfortunately today is {day_name}, a weekday.")
-else:
-    print(f"It is {day_name}, the weekend, yay!")
+if day_name in weekday: 
+    print("Yes, unfortunately, it is a weekday.")
+else: 
+    print("Yay, it is the weekend!")
+
