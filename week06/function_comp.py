@@ -1,12 +1,14 @@
+# Description: A program that uses functions to add students and modules to a list and display them.
+# The program uses a menu system to allow the user to choose whether to add a student, view students, or quit.
 # Author: Finian Doonan
 
 # Function to display the menu
-def displayMenu():
+def displayMenu(): 
     print("What would you like to do?")
     print("\t(a) Add new student")
     print("\t(v) View students")
     print("\t(q) Quit")
-    choice = input("Type one letter (a/v/q): ").strip()
+    choice = input("Type one letter (a/v/q): ").strip().lower() # .strip() removes any whitespace from the beginning and end of the string
     return choice
 
 # Function to read modules
@@ -14,7 +16,8 @@ def readModules():
     modules = []
     moduleName = input("\tEnter module name (blank to quit): ").strip()
     while moduleName != "":
-        module = {"name": moduleName}
+        grade = input(f"\tEnter grade for {moduleName}: ").strip()  # Adding grade input
+        module = {"name": moduleName, "grade": grade}
         modules.append(module)
         moduleName = input("\tEnter another module name (blank to quit): ").strip()
     return modules
@@ -26,12 +29,17 @@ def doAdd(students):
     student = {"name": studentName, "modules": studentModules}
     students.append(student)
 
+# Function to display modules
+def displayModules(modules): 
+    print("\tName\tGrade") 
+    for module in modules: 
+        print(f"\t{module['name']}\t{module['grade']}") # ues single quotes for the string and double quotes for the f-string  
+
 # Function to view students
-def doView(students):
-    for student in students:
-        print(f"Student: {student['name']}")
-        for module in student["modules"]:
-            print(f"\tModule: {module['name']}")
+def doView(students): 
+    for currentStudent in students: 
+        print(f"Student: {currentStudent['name']}") 
+        displayModules(currentStudent["modules"])
 
 # Main program
 students = []
@@ -48,3 +56,4 @@ while choice != 'q':
     choice = displayMenu()
 
 print("Bye bye!!!")
+
