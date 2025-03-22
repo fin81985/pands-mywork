@@ -2,6 +2,8 @@
 
 ## markdown cheats
 
+link https://github.com/im-luka/markdown-cheatsheet
+
 # Heading 1
 ## Heading 2
 ### Heading 3
@@ -15,7 +17,7 @@ Let's make it *italic now*.
 You guessed it, _one underscore is also enough_.  
 Can we combine **_both of that_?** Absolutely.
 What if I want to ~~strikethrough~~?
-
+``highlight``
 [markdown-cheatsheet]: https://github.com/im-luka/markdown-cheatsheet
 [docs]: https://github.com/adam-p/markdown-here
 
