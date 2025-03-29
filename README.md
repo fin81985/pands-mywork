@@ -4,6 +4,8 @@
 
 link https://github.com/im-luka/markdown-cheatsheet
 
+https://www.markdownguide.org/basic-syntax/
+
 # Heading 1
 ## Heading 2
 ### Heading 3
