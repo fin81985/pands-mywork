@@ -1,0 +1,14 @@
+step 1 imports
+step 2 inspect vairable types
+step 3 data exploration, - Displaying first 5 rows
+ - Checking dataset shape (rows, columns)
+ - Examining a specific row
+ - Analyzing species distribution
+ - Computing mean of numerical variables
+ step 4: Generate and Save Variable Summaries
+ step 5 Create Histograms for Each Variable
+These histograms show the distribution of each variable in the dataset.
+step 6 : Scatter Plots of Variable Pairs by Species
+ These scatter plots visualize relationships between different numerical variables, categorized by species.
+Step 7: Correlation Analysis & Heatmap
+The correlation matrix shows the relationships between numerical variables.
